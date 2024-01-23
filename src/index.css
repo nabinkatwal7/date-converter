@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins EB';
+    src: url('./assets/fonts/Poppins-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins B';
+    src: url('./assets/fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins M';
+    src: url('./assets/fonts/Poppins-Medium.ttf');
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.box{
+    border-radius: 8px 8px 50% 8px;
+}
+
+.input-box{
+    font-family:'Poppins EB', sans-serif;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+input:active{
+    border: 2px solid #864CFF;
+}
+
+label{
+    font-family:'Poppins B', sans-serif;
+}
+
+p{
+    font-family:'Poppins EB', sans-serif;
+}
